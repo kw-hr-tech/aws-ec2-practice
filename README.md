@@ -1,7 +1,12 @@
 # aws-ec2-practice
 
 ##　概要
-AWS EC2を使用した小規模検証環境の構築
+AWS無料枠で小規模検証環境の構築
+
+##構成
+-　VPC
+-　Private EC2
+-　Bastion
 
 ##　実施内容
 -　EC2（t3.micro）インスタンス作成
