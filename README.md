@@ -1,5 +1,8 @@
 # aws-ec2-practice
 
+##関連記事
+Qiita  https://qiita.com/kwhr-tech
+
 ##　概要
 AWS無料枠で小規模検証環境の構築
 
