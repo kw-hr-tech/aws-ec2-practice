@@ -1,0 +1,5 @@
+bastion_ami = "ami-xxxxxxxxxxxxxxxxxxxxxx"
+private_ami = "ami-xxxxxxxxxxxxxxxxxxxxxx"
+
+key_name = "your-key-name"
+my_ip = "YOUR_IP/32"
