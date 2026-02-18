@@ -19,10 +19,10 @@ AWS無料枠で小規模検証環境の構築
 -　セキュリティグループ設定
 -　VPC作成
 -　サブネット作成
--　SSH接続確認
--　Terraformを使用した自動環境構築
 
 
 ##　使用技術
--　AWS CLI
 -　Terraform
+
+##備考
+-　terraform.tfvars.exampleのAMI、key_name、YOUR_IP/32は環境に合わせて変更してください
