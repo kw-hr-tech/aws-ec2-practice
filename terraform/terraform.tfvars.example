@@ -1,4 +1,5 @@
-#環境に合わせて実際の値を入力してください
+#　環境に合わせて実際の値を入力してください
+
 bastion_ami = "ami-xxxxxxxxxxxxxxxxxxxxxx"
 private_ami = "ami-xxxxxxxxxxxxxxxxxxxxxx"
 
