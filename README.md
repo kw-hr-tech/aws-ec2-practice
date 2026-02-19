@@ -1,14 +1,10 @@
 # aws-ec2-practice
 
-##関連記事
-Qiita  https://qiita.com/kw-hr-tech
-
-
 ##　概要
 AWS無料枠で小規模検証環境の構築
 
 
-##構成
+##　構成
 -　VPC
 -　EC2
 -　Bastion
@@ -19,10 +15,16 @@ AWS無料枠で小規模検証環境の構築
 -　セキュリティグループ設定
 -　VPC作成
 -　サブネット作成
+-　Bastionを経由してEC2にSSH接続
 
 
 ##　使用技術
 -　Terraform
 
-##備考
--　terraform.tfvars.exampleのAMI、key_name、YOUR_IP/32は環境に合わせて変更してください
+
+##　関連記事
+Qiita  https://qiita.com/kw-hr-tech
+
+
+
+
