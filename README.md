@@ -30,8 +30,8 @@ Terraformを使用し、Bastion経由でのみPrivate EC2にSSH接続可能なVP
 ---  
 
 ##　今後の改善予定  
--　NAT Gateway追加  　
--　ALB構成への拡張  　
+-　NAT Gateway追加  
+-　ALB構成への拡張  
 
 ---  
 
