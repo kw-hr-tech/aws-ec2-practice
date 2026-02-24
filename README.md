@@ -1,8 +1,7 @@
 # Terraformを使用したAWS EC2 構築練習
 
 ##　概要  
-Terraformを使用してAWS上に小規模な検証環境を構築  
-Pablic Subnet上にBastoinサーバーを配置し、Private Subnet上のEC2にSSH接続できる構成を作成  
+Terraformを使用し、Bastion経由でのみPrivate EC2にSSH接続可能なVPC環境を構築  
 
 
 ##　構成  
