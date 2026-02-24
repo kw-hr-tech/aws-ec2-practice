@@ -22,6 +22,10 @@ Pablic Subnet上にBastoinサーバーを配置し、Private Subnet上のEC2にS
 -　Security Groupは最小権限で設定
 -　SSHは自分のGrobal IPのみ許可
 
+##　今後の追加・改善点
+-　NAT Gateway追加
+-　ALB構成への拡張
+
 
 ##　関連記事
 Qiita  https://qiita.com/kw-hr-tech
