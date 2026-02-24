@@ -1,25 +1,26 @@
-# aws-ec2-practice
+# Terraformを使用したAWS EC2 構築練習
 
 ##　概要
-AWS無料枠で小規模検証環境の構築
+Terraformを使用してAWS上に小規模な検証環境を構築
+Pablic Subnet上にBastoinサーバーを配置し、Private Subnet上のEC2にSSH接続できる構成を作成
 
 
 ##　構成
 -　VPC
--　EC2
--　Bastion
+-　Pablic Subnet（Bastion）
+-　Private Subnet（Application）
+-　Internet Gateway
+-　Route Table
+-　Security Group
+-　EC2　×2（t3.micro）
+
+※NAT Gatewayは未使用（無料枠を意識）
 
 
-##　実施内容
--　EC2（t3.micro）インスタンス作成
--　セキュリティグループ設定
--　VPC作成
--　サブネット作成
--　Bastionを経由してEC2にSSH接続
-
-
-##　使用技術
--　Terraform
+##　セキュリティ
+-　Private EC2はBastion経由でのみSSH接続可能
+-　Security Groupは最小権限で設定
+-　SSHは自分のGrobal IPのみ許可
 
 
 ##　関連記事
