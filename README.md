@@ -44,12 +44,12 @@ terraform plan
 terraform apply
 ```
 
--　4.リソースの削除
+-　（必要であれば実施）4.リソースの削除
 ```bash  
 terraform destroy
 ```
 
-※destroyの実行でTerraformで構築したリソースが削除されます（手動で作成したリソースなどは削除されません）
+※課金防止。destroyの実行でTerraformで構築したリソースが削除されます（手動で作成したリソースなどは削除されません）
 
 ---  
 
